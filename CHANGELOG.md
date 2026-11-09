@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- `greet()`: `punctuation` 인수를 추가하여 끝맺음 부호를 변경할 수 있도록 지원(기본값 `!`).
+
+### Fixed
+
+- `greet()`: 빈 문자열 또는 공백 입력 시 기존 빈 인사말(`Hello, !`) 대신 `world`를 사용하도록 수정.
+
 ## [0.1.0] - 2026-11-09
 
 ### Added
