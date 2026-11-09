@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-09
+
 ### Added
 
 - `greet()`: `punctuation` 인수를 추가하여 끝맺음 부호를 변경할 수 있도록 지원(기본값 `!`).
